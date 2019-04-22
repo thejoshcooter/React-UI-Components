@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Thumbnail from './components/HeaderComponents/ImageThumbnail.js'
+import Title from './components/HeaderComponents/HeaderTitle.js';
 
 
 
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div>
       <Thumbnail />
+      <Title />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
