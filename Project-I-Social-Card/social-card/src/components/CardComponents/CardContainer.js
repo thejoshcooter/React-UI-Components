@@ -1,9 +1,12 @@
 import React from 'react';
 import './Card.css';
+import CardBanner from './CardBanner.js';
 
 const CardContainer = props => {
     return (
-        <div></div>
+        <div>
+            <CardBanner />
+        </div>
     );
 };
 
